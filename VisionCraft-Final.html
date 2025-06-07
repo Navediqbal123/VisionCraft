@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VisionCraft.AI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0b0c10;
+            color: #fff;
+            text-align: center;
+            padding: 50px;
+        }
+        button {
+            padding: 12px 20px;
+            background-color: #1f2833;
+            color: #66fcf1;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            margin: 20px;
+        }
+        section {
+            display: none;
+            margin-top: 30px;
+        }
+        input {
+            padding: 10px;
+            width: 80%;
+            margin: 10px auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to VisionCraft.AI</h1>
+    <button onclick="openAd()">Get Started</button>
+
+    <section id="auth">
+        <h2>Login / Signup</h2>
+        <input type="email" placeholder="Email" />
+        <input type="password" placeholder="Password" />
+        <button onclick="showTools()">Continue</button>
+    </section>
+
+    <section id="tools">
+        <h2>Tools</h2>
+        <ul>
+            <li>🎬 Prompt to Video</li>
+            <li>🖼️ Image to Video (10 at once)</li>
+            <li>🔍 Image Upscale</li>
+            <li>🎞️ Video Upscale</li>
+        </ul>
+    </section>
+
+    <script>
+        function openAd() {
+            window.open("https://www.profitableratecpm.com/xcxn6p4npz?key=7accb37748c64bee2627ab3a9efcbba4", "_blank");
+            document.getElementById("auth").style.display = "block";
+        }
+        function showTools() {
+            document.getElementById("tools").style.display = "block";
+        }
+    </script>
+</body>
+</html>
